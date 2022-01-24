@@ -1,0 +1,11 @@
+.b-button{
+    text-decoration: none;
+}
+.pack-button{
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    background-size: 100%;
+}
