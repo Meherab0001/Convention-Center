@@ -15,9 +15,10 @@
     border-radius: 20px;
     padding: 5px;
 }
-.pack-question !important {
+@media screen and (max-width:480px) {
+    .row{
+        flex-direction: column;
+        
+    }
     
-}{
-    width: 50%;
-    height: 50%;
 }
