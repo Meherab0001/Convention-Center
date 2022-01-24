@@ -1,6 +1,8 @@
+/* banner button */
 .b-button{
     text-decoration: none;
 }
+/* package button */
 .pack-button{
     background-color: white;
     color: blue;
@@ -9,16 +11,28 @@
     border-radius: 20px;
     background-size: 100%;
 }
+/* foooter image */
 .app-store{
     width:125px;
     height:75px;
     border-radius: 20px;
     padding: 5px;
 }
+.explore-img{
+    background-size: cover;
+    width:100%
+
+}
+.footer{
+    width:100%;
+}
 @media screen and (max-width:480px) {
     .row{
         flex-direction: column;
-        
+      
+    }
+    body{
+     overflow-x: hidden;
     }
     
 }
