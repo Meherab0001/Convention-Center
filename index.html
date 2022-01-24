@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convention-Center</title>
+    <!-- toast script -->
+    <script>
+      window.onload = (e) => {
+          let myToast = document.querySelector('.toast');
+          let bsToast = new bootstrap.Toast(myToast);
+          bsToast.show();
+      }
+  </script>
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
     <!-- bootstrap css -->
@@ -84,6 +92,16 @@
         </section>
      
     </header>
+    <!-- toast icon -->
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+    
+        <strong class="me-auto">  <i class="fas fa-gift"></i> 20% off your next booking</strong>
+       
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close hidden"></button>
+      </div>
+     
+    </div>
     <!-- main section start -->
     <main>
       <section class="container p-5">
@@ -192,7 +210,17 @@
       </section>
     </main>
     <footer>
+      <section style="height: 300px;" class="container d-flex bg-dark text-white justify-content-around d-flex align-items-center">
+        <div>
+          <p>© 2020 bike. All rights reserve</p>
+        </div>
+        <div>
+          <p>Get app</p>
+          <a target="-blank" href=""><img class="app-store" src="convention-center-main/images/apple.png" alt=""></a><br>
+          <a target="-blank" href=""><img class="app-store" src="convention-center-main/images/android.jpg" alt=""></a>
 
+        </div>
+      </section>
     </footer>
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
